@@ -41,10 +41,15 @@ QuadViewer is an Electron-based application that divides your screen into four i
 6. **Create a Desktop Shortcut:**
 
 **For CMD Users:**
+
     Right-click the launch.cmd file inside the QuadViewer folder, then choose "Create shortcut." You can drag the shortcut to your desktop. Double-click this shortcut to launch the app.
+
 **For PowerShell Users:**
+
     Right-click the launch.ps1 file and select "Run with PowerShell" or create a shortcut by right-clicking and selecting "Create shortcut." Note that for the PowerShell script, you must right-click and choose "Run with PowerShell" if the script isn’t set to run by default.
+
 7. **Launch the App:**
+
     Double-click your desktop shortcut (or right-click the PowerShell shortcut and select "Run with PowerShell") to start QuadViewer. The app will launch immediately with its default settings.
 
 ## Files Overview
