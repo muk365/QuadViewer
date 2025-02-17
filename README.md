@@ -22,8 +22,11 @@ QuadViewer is an Electron-based application that divides your screen into four i
    Open a terminal (CMD or PowerShell) in the folder where you want the app's folder to be created.
 
 2. **Clone the Repository:**  
-   In your terminal, run: git clone https://github.com/yourusername/QuadViewer.git
-    This will create a folder named QuadViewer in your selected installation directory.
+   In your terminal, run: 
+   
+   git clone https://github.com/muk365/QuadViewer.git
+
+   This will create a folder named QuadViewer in your selected installation directory.
 
 3. **Install dependencies:**
     Navigate to the QuadViewer folder
@@ -63,13 +66,17 @@ Contains metadata and scripts for the Electron app.
 **To change the default settings, open main.js and modify the configuration block at the top:**
 
 // --------------------------------------------------
+
 // Configuration – Modify these values as desired:
+
 const config = {
   defaultPage: "https://www.google.com/",
   width: 1920,
   height: 1080
 };
+
 // --------------------------------------------------
+
 **Adjust these values as needed.**
 
 ## Contributing
