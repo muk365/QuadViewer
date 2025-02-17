@@ -50,14 +50,23 @@ QuadViewer is an Electron-based application that divides your screen into four i
 ## Files Overview
 
 **main.js:**
+
 Contains the main process code. A configuration block at the top lets you modify the default page, window width, and height.
+
 **preload.js:**
+
 Injects the navigation bar into each quadrant. The navbar includes Home, Globe, Back, Next buttons, and a URL input field.
+
 **adblock_patterns.txt:**
+
 Pre-filled with ad-blocking rules (in AdBlock syntax) to block common ad domains.
+
 **launch.cmd & launch.ps1:**
+
 Windows command files for launching the app easily. Create shortcuts for these files to launch the app directly.
+
 **package.json:**
+
 Contains metadata and scripts for the Electron app.
 
 
